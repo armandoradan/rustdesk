@@ -298,8 +298,8 @@ jobs:
           prerelease: true
           tag_name: ${{ env.TAG_NAME }}
           files: |
-            ./SignOutput/rustdesk-*.exe
-            ./rustdesk-*.tar.gz
+            ./SignOutput/pConnect-*.exe
+            ./pConnect-*.tar.gz
 
   build-for-macOS-arm64:
     name: build-for-macOS-arm64
